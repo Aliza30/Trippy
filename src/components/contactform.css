@@ -1,0 +1,36 @@
+.from-con {
+  margin: 4rem 2rem;
+  columns: #2a2a2a;
+}
+.from-con form {
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+.from-con input {
+  height: 2rem;
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+}
+.from-con textarea {
+  height: 5rem;
+  padding: 0 1rem;
+  margin-bottom: 2rem;
+}
+.from-con button {
+  display: inline;
+}
+@media screen and (max-width: 850px) {
+  .from-con {
+    margin: 2rem 2rem;
+
+    columns: #2a2a2a;
+  }
+  .from-con form {
+    padding-top: 3rem;
+
+    width: 50%;
+  }
+}
